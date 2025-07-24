@@ -39,3 +39,31 @@ body {
   border-radius: 10px;
 }
 
+
+.marks-table {
+  margin: 1rem auto;
+  width: 90%;
+  border-collapse: collapse;
+  font-size: 1rem;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+}
+
+.marks-table th,
+.marks-table td {
+  padding: 12px 16px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.marks-table thead {
+  background-color: #ff7a30;
+  color: whitesmoke;
+}
+
+.marks-table tbody tr:nth-child(even) {
+  background-color: #ffe9e9;
+}
+
+.marks-table tbody tr:hover {
+  background-color: #ffe6cc;
+}
