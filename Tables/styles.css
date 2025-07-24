@@ -27,6 +27,7 @@ body {
 .hero .heading {
   width: 100%;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .hero .underline {
@@ -46,6 +47,7 @@ body {
   border-collapse: collapse;
   font-size: 1rem;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  font-size: 1.1rem;
 }
 
 .marks-table th,
@@ -79,6 +81,12 @@ body {
 
 .label {
   display: inline-block;
+  text-transform: capitalize;
+  font-size: 1.25rem;
+}
+
+.lists {
+  margin: 1rem 0;
 }
 
 ol {
@@ -91,6 +99,7 @@ ol {
 
 li {
   margin-bottom: 0.25rem;
+  font-size: 1.1rem;
 }
 
 .lists-2 ol {
