@@ -67,3 +67,37 @@ body {
 .marks-table tbody tr:hover {
   background-color: #ffe6cc;
 }
+
+
+.circle {
+  width: 10px;
+  height: 10px;
+  background-color: #FF7A30;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.label {
+  display: inline-block;
+}
+
+ol {
+  padding-left: 1.5rem;
+  padding-top: 0.5rem;
+  margin-left: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+.lists-2 ol {
+  list-style-type: lower-alpha;
+
+}
+
+.lists-2 li {
+  margin-bottom: 0.25rem;
+}
