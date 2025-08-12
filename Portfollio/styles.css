@@ -184,7 +184,10 @@ body.light-mode .nav-links a:hover {
 /* Responsive */
 @media (max-width: 600px) {
   .nav-links {
-    flex-direction: column;
-    gap: 0.5rem;
+    display: none;
+  }
+
+  .heading {
+    font-size: 2.25rem;
   }
 }
